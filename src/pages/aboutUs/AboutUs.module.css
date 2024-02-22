@@ -1,0 +1,22 @@
+.aboutUs {
+  margin: 110px 0 0 0;
+}
+.aboutUs .aboutUsTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.aboutUs .aboutUsTop .aboutTxt .title {
+  padding: 0 0 60px 0;
+  font-size: 48px;
+  line-height: 59px;
+}
+.aboutUs .aboutUsTop .aboutTxt .descr {
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 581px;
+  text-align: left;
+}
+
+/*# sourceMappingURL=AboutUs.module.css.map */

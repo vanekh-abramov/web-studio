@@ -1,13 +1,62 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('./assets/fonts/centuryGothic/centurygothic.ttf');
+}
+
 body {
+  background-color: #517ea1;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+body{
+  font-family: 'Century Gothic', serif;
+}
+
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  cursor: pointer;
+  padding: 0;
+  text-align: center;
 }

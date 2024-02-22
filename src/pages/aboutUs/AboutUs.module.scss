@@ -1,0 +1,24 @@
+.aboutUs{
+  margin: 110px 0 0 0;
+  .aboutUsTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    //gap: 90px;
+    .aboutTxt{
+      .title{
+        padding: 0 0 60px 0;
+        font-size: 48px;
+        line-height: 59px;
+      }
+      .descr{
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 581px;
+        text-align: left;
+      }
+    }
+  }
+}
+

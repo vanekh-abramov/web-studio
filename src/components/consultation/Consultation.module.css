@@ -1,0 +1,29 @@
+.consultation {
+  margin: 200px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  background: radial-gradient(1523% 87% at 13% 100%, rgb(255, 248, 245), rgb(255, 248, 246) 100%);
+}
+.consultation .consultationContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.consultation .consultationContent .txt {
+  max-width: 373px;
+}
+.consultation .consultationContent .txt .title {
+  padding: 0 0 20px 0;
+  font-size: 48px;
+  line-height: 59px;
+}
+.consultation .consultationContent .txt .subtitle {
+  color: rgb(104, 104, 104);
+  font-size: 24px;
+  line-height: 29px;
+}
+
+/*# sourceMappingURL=Consultation.module.css.map */

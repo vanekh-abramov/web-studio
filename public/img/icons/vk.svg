@@ -1,0 +1,20 @@
+<svg width="60.000000" height="60.000000" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1418_158">
+			<rect id="Social Icons" width="24.000000" height="24.000000" transform="translate(18.000000 18.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip1412_106">
+			<rect id="Frame 6" rx="2.000000" width="60.000000" height="60.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Frame 6" rx="2.000000" width="60.000000" height="60.000000" fill="#D9D9D9" fill-opacity="0"/>
+	<g clip-path="url(#clip1412_106)">
+		<rect id="Social Icons" width="24.000000" height="24.000000" transform="translate(18.000000 18.000000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip1418_158)">
+			<path id="Vector" d="M19.687 19.6871C18 21.3741 18 24.0894 18 29.52L18 30.48C18 35.9106 18 38.6259 19.687 40.3129C21.374 42 24.0894 42 29.52 42L30.48 42C35.9106 42 38.626 42 40.313 40.3129C42 38.6259 42 35.9106 42 30.48L42 29.52C42 24.0894 42 21.3741 40.313 19.6871C38.626 18 35.9106 18 30.48 18L29.52 18C24.0894 18 21.374 18 19.687 19.6871ZM22.0503 25.3C22.1802 31.54 25.3003 35.29 30.77 35.29L31.0801 35.29L31.0801 31.72C33.0903 31.92 34.6099 33.3901 35.2202 35.29L38.0601 35.29C37.2803 32.4501 35.23 30.8801 33.9497 30.28C35.23 29.54 37.0298 27.7401 37.46 25.3L34.8799 25.3C34.3198 27.28 32.6602 29.0801 31.0801 29.2501L31.0801 25.3L28.5 25.3L28.5 32.22C26.8999 31.8201 24.8799 29.8801 24.79 25.3L22.0503 25.3Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+	</g>
+</svg>
