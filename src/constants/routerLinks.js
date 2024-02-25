@@ -1,0 +1,5 @@
+export const HOME = '/'
+export const ERROR = '/error'
+export const PRICE_LIST = '/price_list'
+export const PORTFOLIO = '/portfolio'
+export const ABOUT_US = '/about'
