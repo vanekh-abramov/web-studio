@@ -1,0 +1,65 @@
+
+.priceList {
+  padding: 120px 0 0 0;
+
+  .exampleCard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 0 150px 0;
+
+    .cardImgs {
+      position: relative;
+      display: flex;
+      gap: 20px;
+
+      .img {
+        margin: 0 0 60px 0;
+      }
+
+      .priceTitle {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 24px;
+        line-height: 29px;
+
+        .price {
+          color: rgb(235, 91, 41);
+        }
+      }
+    }
+
+    .cardTxt {
+      max-width: 540px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}
+
+
+
+.exampleName {
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.exampleSubtitle {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.exampleDescr {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+.accordion{
+  .exampleName{
+    padding: 0 0 100px 0;
+  }
+}
