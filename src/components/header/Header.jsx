@@ -30,7 +30,7 @@ const Header = () => {
         <img
           src='/img/icons/webWizard.svg'
           className={style.webWizard}
-          alt='webWixard'
+          alt='webWizard'
         />
       </Link>
 

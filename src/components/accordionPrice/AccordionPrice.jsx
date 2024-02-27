@@ -25,7 +25,7 @@ export const AccordionPrice = () => {
             <Accordion>
                 <AccordionSummary
                     expandIcon={<AddOutlinedIcon sx={{ color: "rgb(235, 91, 41)", fontSize: 40}}/>}
-                    id="panel1-header">
+                    id="panel2-header">
                     <Typography sx={{fontSize: 24}}>
                         Админ панель
                     </Typography>
@@ -39,7 +39,7 @@ export const AccordionPrice = () => {
             <Accordion>
                 <AccordionSummary
                     expandIcon={<AddOutlinedIcon sx={{ color: "rgb(235, 91, 41)", fontSize: 40}}/>}
-                    id="panel1-header">
+                    id="panel3-header">
                     <Typography sx={{fontSize: 24}}>
                         Размещение сайта на хостинге + подбор домена
                     </Typography>
