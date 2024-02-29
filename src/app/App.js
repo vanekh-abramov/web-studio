@@ -11,7 +11,8 @@ const location = useLocation()
     return (
         <div className={style.wrapper}>
             <Header />
-            <AppRouter />
+            <AppRouter/>
+            <div id="portal"></div>
             {location.pathname === '/' ? null : <Footer/>}
         </div>
     );
