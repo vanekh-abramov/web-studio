@@ -7,20 +7,10 @@
   .menuList {
     display: flex;
     gap: 30px;
-    .menuItem{
+
+    .menuItem {
       font-size: 20px;
       line-height: 25px;
-    }
-  }
-
-  .socialList {
-    display: flex;
-    gap: 10px;
-    .socialIcon{
-      transition: scale 500ms ease-in-out;
-      &:hover{
-        scale: 110%;
-      }
     }
   }
 }

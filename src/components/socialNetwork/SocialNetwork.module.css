@@ -1,0 +1,12 @@
+.socialList {
+  display: flex;
+  gap: 10px;
+}
+.socialList .socialIcon {
+  transition: scale 500ms ease-in-out;
+}
+.socialList .socialIcon:hover {
+  scale: 110%;
+}
+
+/*# sourceMappingURL=SocialNetwork.module.css.map */

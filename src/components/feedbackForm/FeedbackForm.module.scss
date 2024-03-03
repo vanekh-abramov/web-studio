@@ -1,0 +1,44 @@
+.feedback{
+  position: fixed;
+  top: 122px;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .img{
+    width: 650px;
+    height: 658px;
+    background-color: #EAEAEA;
+    border-radius: 5px;
+  }
+  .form{
+    padding: 0 96px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .inputsGroup{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      .input{
+        font-family: inherit;
+        width: 100%;
+        font-size: 20px;
+        line-height: 25px;
+        padding: 18px 0 18px 23px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        &::placeholder{
+          color: rgb(217, 217, 217);
+          font-size: 20px;
+        }
+      }
+    }
+    .contactUs{
+      font-size: 20px;
+    }
+  }
+}

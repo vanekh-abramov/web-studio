@@ -12,15 +12,5 @@
   font-size: 20px;
   line-height: 25px;
 }
-.header .socialList {
-  display: flex;
-  gap: 10px;
-}
-.header .socialList .socialIcon {
-  transition: scale 500ms ease-in-out;
-}
-.header .socialList .socialIcon:hover {
-  scale: 110%;
-}
 
 /*# sourceMappingURL=Header.module.css.map */

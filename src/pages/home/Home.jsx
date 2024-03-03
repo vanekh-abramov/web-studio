@@ -3,6 +3,7 @@ import style from "./Home.module.scss";
 import { Btn } from "../../components/btn/Btn";
 
 const Home = () => {
+
   return (
     <main className={style.home}>
       <div className={style.mainTop}>
