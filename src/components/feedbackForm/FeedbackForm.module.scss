@@ -1,6 +1,6 @@
-.feedback{
+.feedback {
   position: fixed;
-  top: 122px;
+  top: 150px;
   left: 0;
   width: 100%;
   z-index: 2;
@@ -8,22 +8,22 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  .img{
+  .img {
     width: 650px;
     height: 658px;
-    background-color: #EAEAEA;
+    background-color: #eaeaea;
     border-radius: 5px;
   }
-  .form{
+  .form {
     padding: 0 96px 0 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    .inputsGroup{
+    .inputsGroup {
       display: flex;
       flex-direction: column;
       gap: 40px;
-      .input{
+      .input {
         font-family: inherit;
         width: 100%;
         font-size: 20px;
@@ -31,13 +31,13 @@
         padding: 18px 0 18px 23px;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 6px;
-        &::placeholder{
+        &::placeholder {
           color: rgb(217, 217, 217);
           font-size: 20px;
         }
       }
     }
-    .contactUs{
+    .contactUs {
       font-size: 20px;
     }
   }
