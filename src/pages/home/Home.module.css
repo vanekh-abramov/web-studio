@@ -1,24 +1,24 @@
-.mainTop {
+.home .mainTop {
   display: flex;
   justify-content: space-between;
   padding: 62px 0 108px 0;
 }
-.mainTop .mainTitle {
+.home .mainTop .mainTitle {
   flex: 2;
   font-size: 90px;
   line-height: 110px;
 }
-.mainTop .mainTitle .orangeTxt {
+.home .mainTop .mainTitle .orangeTxt {
   position: relative;
   color: rgb(235, 91, 41);
 }
-.mainTop .mainTitle .orangeTxt::after {
+.home .mainTop .mainTitle .orangeTxt::after {
   content: url("../../../public/img/icons/starsMainTitle.svg");
   position: absolute;
   bottom: 45px;
   right: -25px;
 }
-.mainTop .mainDescr {
+.home .mainTop .mainDescr {
   padding: 20px 0 20px 40px;
   flex: 1;
   display: flex;
@@ -26,7 +26,7 @@
   justify-content: space-between;
   align-items: flex-start;
 }
-.mainTop .mainDescr .descrTxt {
+.home .mainTop .mainDescr .descrTxt {
   font-size: 17px;
   line-height: 28px;
 }

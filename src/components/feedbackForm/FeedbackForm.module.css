@@ -1,32 +1,47 @@
 .feedback {
+  position: relative;
+  z-index: 1;
+}
+.feedback .shadow {
   position: fixed;
-  top: 122px;
-  left: 0;
+  inset: 0;
+  background: rgba(33, 37, 43, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feedback .shadow .content {
+  position: relative;
+  padding: 50px 25px;
+  margin: 20px;
+  max-width: 1200px;
   width: 100%;
   z-index: 2;
   background-color: white;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  border-radius: 15px;
 }
-.feedback .img {
-  width: 650px;
-  height: 658px;
-  background-color: #EAEAEA;
+.feedback .shadow .content .img {
   border-radius: 5px;
 }
-.feedback .form {
-  padding: 0 96px 0 0;
+.feedback .shadow .content .img img {
+  width: 100%;
+  aspect-ratio: auto 1/1;
+}
+.feedback .shadow .content .form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.feedback .form .inputsGroup {
+.feedback .shadow .content .form .inputsGroup {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-.feedback .form .inputsGroup .input {
+.feedback .shadow .content .form .inputsGroup .input {
   font-family: inherit;
   width: 100%;
   font-size: 20px;
@@ -35,11 +50,11 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;
 }
-.feedback .form .inputsGroup .input::placeholder {
+.feedback .shadow .content .form .inputsGroup .input::placeholder {
   color: rgb(217, 217, 217);
   font-size: 20px;
 }
-.feedback .form .contactUs {
+.feedback .shadow .content .form .contactUs {
   font-size: 20px;
 }
 
