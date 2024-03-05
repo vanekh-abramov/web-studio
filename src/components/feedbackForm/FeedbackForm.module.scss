@@ -1,44 +1,59 @@
 .feedback {
-  position: fixed;
-  top: 150px;
-  left: 0;
-  width: 100%;
-  z-index: 2;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  .img {
-    width: 650px;
-    height: 658px;
-    background-color: #eaeaea;
-    border-radius: 5px;
-  }
-  .form {
-    padding: 0 96px 0 0;
+  position: relative;
+  z-index: 1;
+  .shadow {
+    position: fixed;
+    inset: 0;
+    background: rgba(33, 37, 43, 0.5);
+    backdrop-filter: blur(10px);
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    .inputsGroup {
+    align-items: center;
+    justify-content: center;
+    .content {
+      position: relative;
+      padding: 50px 25px;
+      margin: 20px;
+      max-width: 1200px;
+      width: 100%;
+      z-index: 2;
+      background-color: white;
       display: flex;
-      flex-direction: column;
-      gap: 40px;
-      .input {
-        font-family: inherit;
-        width: 100%;
-        font-size: 20px;
-        line-height: 25px;
-        padding: 18px 0 18px 23px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        border-radius: 6px;
-        &::placeholder {
-          color: rgb(217, 217, 217);
+      justify-content: space-between;
+      flex-wrap: wrap;
+      border-radius: 15px;
+      .img {
+        border-radius: 5px;
+        img {
+          width: 100%;
+          aspect-ratio: auto 1/1;
+        }
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .inputsGroup {
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          .input {
+            font-family: inherit;
+            width: 100%;
+            font-size: 20px;
+            line-height: 25px;
+            padding: 18px 0 18px 23px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+            &::placeholder {
+              color: rgb(217, 217, 217);
+              font-size: 20px;
+            }
+          }
+        }
+        .contactUs {
           font-size: 20px;
         }
       }
-    }
-    .contactUs {
-      font-size: 20px;
     }
   }
 }
