@@ -2,7 +2,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, FreeMode } from "swiper/modules";
 import "swiper/scss";
 import "swiper/scss/pagination";
-import style from "./MainSlider.module.scss";
+import "./MainSlider.css";
+// import style from "./MainSlider.module.scss";
 import emptyCard from "./emptyCard.jpeg";
 
 export function MainSlider() {
@@ -13,7 +14,7 @@ export function MainSlider() {
       spaceBetween={30}
       //   centeredSlides={true}
       pagination={{ clickable: true }}
-      className={style.mySwiper}
+      className='mySwiper'
     >
       <SwiperSlide>
         <img src={emptyCard} alt='fds' />

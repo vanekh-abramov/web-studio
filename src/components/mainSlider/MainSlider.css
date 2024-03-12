@@ -7,11 +7,26 @@
   height: 100%;
 }
 
+.swiper::after {
+  content: '';
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../public/img/slider/slider_line.png');
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #000000;
-  border: crimson 2px solid;
+  /* border: crimson 2px solid; */
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
@@ -19,7 +34,7 @@
 }
 
 .swiper-slide img {
-  border: crimson 2px solid;
+  /* border: crimson 2px solid; */
   display: block;
   width: 100%;
   height: 100%;
