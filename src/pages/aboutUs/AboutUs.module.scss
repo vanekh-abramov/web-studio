@@ -1,18 +1,18 @@
-.aboutUs{
-  margin: 110px 0 0 0;
-  .aboutUsTop{
+.aboutUs {
+  margin: 130px 0 0 0;
+  .aboutUsTop {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     //gap: 90px;
-    .aboutTxt{
-      .title{
+    .aboutTxt {
+      .title {
         padding: 0 0 60px 0;
         font-size: 48px;
         line-height: 59px;
       }
-      .descr{
+      .descr {
         font-size: 18px;
         line-height: 28px;
         max-width: 581px;
@@ -21,4 +21,3 @@
     }
   }
 }
-

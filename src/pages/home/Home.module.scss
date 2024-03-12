@@ -1,8 +1,12 @@
 .home {
+  max-height: 100lvh;
+  margin: 130px 20px 0;
   .mainTop {
     display: flex;
     justify-content: space-between;
-    padding: 62px 0 108px 0;
+    margin-bottom: 75px;
+    // padding: 62px 0 108px 0;
+    // margin: 130px 20px 20px;
     .mainTitle {
       flex: 2;
       font-size: 90px;
